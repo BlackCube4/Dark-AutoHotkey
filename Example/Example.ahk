@@ -1,6 +1,6 @@
 ﻿#NoEnv
-#Include Class_ImageButton.ahk
-#Include UseGDIP.ahk
+#Include %A_ScriptDir%\Class_ImageButton.ahk
+#Include %A_ScriptDir%\UseGDIP.ahk
 
 ;Make Tray Menu Dark
 uxtheme := DllCall("GetModuleHandle", "str", "uxtheme", "ptr")
